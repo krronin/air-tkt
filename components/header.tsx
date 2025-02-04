@@ -11,7 +11,7 @@ import {
   PopoverGroup,
   PopoverPanel,
 } from '@headlessui/react'
-import { ChevronDownIcon, DocumentCheckIcon, HomeModernIcon, PaperAirplaneIcon, PhoneIcon, PlayCircleIcon } from '@heroicons/react/20/solid'
+import { ChevronDownIcon, DocumentCheckIcon, HomeModernIcon, PaperAirplaneIcon } from '@heroicons/react/20/solid'
 import {
   Bars3Icon,
   TruckIcon,
@@ -107,11 +107,9 @@ export default function AppHeader() {
           <div className="flex items-center justify-between">
             <a href="#" className="-m-1.5 p-1.5">
               <span className="sr-only">Your Company</span>
-              <img
-                alt=""
+              <Image alt=""
                 src="https://tailwindui.com/plus/img/logos/mark.svg?color=indigo&shade=600"
-                className="h-8 w-auto"
-              />
+                className="h-8 w-auto" width={100} height={100} />
             </a>
             <button
               type="button"

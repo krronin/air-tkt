@@ -5,6 +5,7 @@ import MultipleCity from "@/components/multiple-city";
 import OneWay from "@/components/one-way";
 import RoundTrip from "@/components/round-trip";
 import Tabs from "@/components/tabs";
+import Image from "next/image";
 
 import { useState } from "react";
 
@@ -49,38 +50,48 @@ export default function Page() {
 
       <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
         <div>
-          <img
-            className="h-auto max-w-full rounded-lg"
+          <Image
             src="https://cdn.airfuture.com/img/bg/BOS_1.jpg"
             alt=""
+            className="h-auto w-full rounded-lg"
+            width={100}
+            height={100}
           />
         </div>
         <div>
-          <img
-            className="h-auto max-w-full rounded-lg"
+          <Image
             src="https://cdn.airfuture.com/img/bg/MIA_2.jpg"
             alt=""
+            className="h-auto w-full rounded-lg"
+            width={100}
+            height={100}
           />
         </div>
         <div>
-          <img
-            className="h-auto max-w-full rounded-lg"
+          <Image
             src="https://cdn.airfuture.com/img/bg/SEA_2.jpg"
             alt=""
+            className="h-auto w-full rounded-lg"
+            width={100}
+            height={100}
           />
         </div>
         <div>
-          <img
-            className="h-auto max-w-full rounded-lg"
+          <Image
             src="https://cdn.airfuture.com/img/bg/LAS_2.jpg"
             alt=""
+            className="h-auto w-full rounded-lg"
+            width={100}
+            height={100}
           />
         </div>
         <div>
-          <img
-            className="h-auto max-w-full rounded-lg"
+          <Image
             src="https://cdn.airfuture.com/img/bg/ATL_2.jpg"
             alt=""
+            className="h-auto w-full rounded-lg"
+            width={100}
+            height={100}
           />
         </div>
       </div>
@@ -100,15 +111,15 @@ export default function Page() {
           <div className="hidden duration-700 ease-in-out" data-carousel-item>
             <blockquote className="text-xl italic font-semibold text-left text-gray-900 dark:text-white">
               <p>
-                "Flowbite is just awesome. It contains tons of predesigned
+                &ldquo;Flowbite is just awesome. It contains tons of predesigned
                 components and pages starting from login screen to complex
-                dashboard. Perfect choice for your next SaaS application."
+                dashboard. Perfect choice for your next SaaS application.&rdquo;
               </p>
             </blockquote>
           </div>
           {/* <!-- Item 2 --> */}
           <div className="hidden duration-700 ease-in-out" data-carousel-item>
-          <blockquote className="text-xl italic font-semibold text-left text-gray-900 dark:text-white">
+            <blockquote className="text-xl italic font-semibold text-left text-gray-900 dark:text-white">
               <p>
                 "Flowbite is just awesome. It contains tons of predesigned
                 components and pages starting from login screen to complex
@@ -118,7 +129,7 @@ export default function Page() {
           </div>
           {/* <!-- Item 3 --> */}
           <div className="hidden duration-700 ease-in-out" data-carousel-item>
-          <blockquote className="text-xl italic font-semibold text-left text-gray-900 dark:text-white">
+            <blockquote className="text-xl italic font-semibold text-left text-gray-900 dark:text-white">
               <p>
                 "Flowbite is just awesome. It contains tons of predesigned
                 components and pages starting from login screen to complex
@@ -128,7 +139,7 @@ export default function Page() {
           </div>
           {/* <!-- Item 4 --> */}
           <div className="hidden duration-700 ease-in-out" data-carousel-item>
-          <blockquote className="text-xl italic font-semibold text-left text-gray-900 dark:text-white">
+            <blockquote className="text-xl italic font-semibold text-left text-gray-900 dark:text-white">
               <p>
                 "Flowbite is just awesome. It contains tons of predesigned
                 components and pages starting from login screen to complex
@@ -138,7 +149,7 @@ export default function Page() {
           </div>
           {/* <!-- Item 5 --> */}
           <div className="hidden duration-700 ease-in-out" data-carousel-item>
-          <blockquote className="text-xl italic font-semibold text-left text-gray-900 dark:text-white">
+            <blockquote className="text-xl italic font-semibold text-left text-gray-900 dark:text-white">
               <p>
                 "Flowbite is just awesome. It contains tons of predesigned
                 components and pages starting from login screen to complex
