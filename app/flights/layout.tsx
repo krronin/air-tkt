@@ -4,7 +4,7 @@ export default function FlightsLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <section className="mx-auto flex max-w-7xl p-6 lg:px-8">
+    <section className="w-full flex p-6 lg:px-8">
       {children}
     </section>
   );
